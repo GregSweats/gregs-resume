@@ -4,12 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "jsonresume-theme-harvest": "../jsonresume-theme-harvest/"
+    "jsonresume-theme-harvest": "jsonresume-theme/jsonresume-theme-harvest/"
   },
   "scripts": {
-    "start": "resume serve --theme=../resume-theme-harvest/",
-    "export-html": "yarn resume export public/index.html --theme=../resume-theme-harvest/ --format=html ",
-    "export-pdf": "resume export resume-Greg-Stevens.pdf --theme=harvest --format=pdf",
+    "start": "resume serve --theme=harvest",
+    "export-html": "yarn resume export public/index.html --theme=harvest --format=html ",
+    "export-pdf": "resume export public/resume-Greg-Stevens.pdf --theme=harvest --format=pdf",
     "dev": "gulp",
     "build": "yarn export-html && yarn export-pdf",
     "deploy-prod": "vercel build --prod && vercel deploy --prebuilt --prod"
