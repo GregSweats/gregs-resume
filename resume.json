@@ -1,0 +1,890 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+
+
+    "meta": {
+      "version": "v1.0.0-alpha.2",
+      "canonical": "https://github.com/GregSweats/gregs-resume"
+    },
+
+
+    "basics": {
+      "lang": "en",
+      "lang$comment": "#todo vote on if `lang` should be added to root, not basics? For HTML W3C Validation. Totally unecessary.",
+
+      "title": "Greg Stevens Resume",
+      "name": "Greg Stevens, Dalyle DevOps Inc.",
+      "label": "\"Once you label me, you negate me\" -- James E Stirrup",
+
+      "image": "//i.imgur.com/tN66Yop.png",
+      "picture": "//i.imgur.com/tN66Yop.png",
+      "picture$comment": "`picture` is NOT a JSON Schema Element, nor should be, but it is buggingly used by a broken template: `caffeine`; https://registry.jsonresume.org/GregSweats?theme=caffeine)",
+
+      "email": "greg@stevens.pro",
+      "email_url": "mailto:greg@stevens.pro",
+      "phone": "+1 (403) 213-5644",
+      "phone_url": "tel:+14032952848",
+      "url": "https://www.dalyle.ca/",
+      "url$comment": "#todo FIX: uri format not allowing `.pro` TLD e.g. https://greg.stevens.pro/",
+      "url$comment2": "Watch some themes, they violate schema and use website instead.",
+      "url$comment3": "#todo Separate true basics from basic_extras for stricter enforcement.",
+
+      "pronouns": "He/Him",
+      "pronouns$comment": "#PR",
+
+
+      "summary": "Authentic, creative, unoriginal champion. Mastering excellence day in, day out, to be better at helping others during my life of service. 🕵️‍♀️ Production Troubleshooter, 🦄 DevOps Specialist, 🌐 Full-stack Web Developer, Leader, 🔑 Security Researcher. 👍 Leader  🔁 DevOps  Specialist ☁ Architect 🤓 Site Reliability Engineer 🎯 Father 🧔 Diabetic 💉 Lifter 💪",
+
+      "location": {
+        "countryCode": "CA",
+        "$comment": "#todo fix countryCode always using 'US' (What template?)",
+        "address": "Canada",
+        "city": "Okotoks",
+        "region": "Alberta",
+        "url": "https://www.dalyle.ca/map"
+      },
+
+
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "GregWorks",
+          "url": "https://www.linkedin.com/in/GregWorks/"
+        },
+        {
+          "network": "YouTube",
+          "username": "GregWorks",
+          "url": "https://www.youtube.com/channel/UCEOR5OVIgWpsRVZcoyz8i0Q/featured"
+        },
+        {
+          "network": "Twitter",
+          "username": "DalyleDevDevOpsInc",
+          "url": "https://twitter.com/DalyleDevDevOpsInc"
+        },
+        {
+          "network": "GitHub",
+          "username": "GregSweats",
+          "url": "https://github.com/GregSweats"
+        },
+        {
+          "network": "Instagram",
+          "username": "Diabefit",
+          "url": "https://www.instagram.com/diabefit/"
+        },
+        {
+          "network": "vCard",
+          "username": "dalyle.ca/vcard",
+          "url": "https://www.dalyle.ca/vcard"
+        },
+        {
+          "network": "Website",
+          "username": "art.stevens.pro",
+          "url": "https://art.stevens.pro",
+          "icon": "desktop"
+        },
+        {
+          "network": "YouTube",
+          "username": "UltimoPenguin7 Gami...",
+          "url": "https://www.youtube.com/channel/UCrCqLZ-YabZoJ_C6pkB4M9g/about"
+        }
+
+      ],
+
+      "$birth_comment": "Extra field supported by jsonresume-theme-stackoverflow",
+      "birth": {
+        "place": "High River",
+        "state": "Alberta",
+        "date": "1986"
+      }
+    },
+    "work": [
+      {
+        "name": "Dalyle DevOps Inc.",
+        "position": "Founder, CEO, Full-stack Web Developer, Hostmaster",
+        "startDate": "2021-10-31",
+        "highlights": [
+          "First time truly on my own",
+          "Over 10 months in business!"
+        ],
+        "url": "https://www.dalyle.ca/",
+        "location": "Okotoks, Alberta, Canada"
+      },
+      {
+        "name": "Media Dog Productions",
+        "position": "IT Director",
+        "startDate": "2015-05-31",
+        "endDate": "2021-10-31",
+        "highlights": [],
+        "url": "https://www.mediadog.ca/",
+        "location": "Calgary, AB, Canada"
+      },
+      {
+        "name": "Media Dog Productions",
+        "position": "Lead Application Developer",
+        "startDate": "2011-03-31",
+        "endDate": "2015-05-31",
+        "highlights": []
+      },
+      {
+        "name": "Media Dog Productions",
+        "position": "Application Developer",
+        "startDate": "2004-12-31",
+        "endDate": "2011-03-31",
+        "highlights": []
+      },
+      {
+        "name": "SabreTEC",
+        "position": "IT Consultant",
+        "startDate": "2003-12-31",
+        "endDate": "2011-12-31",
+        "highlights": [],
+        "url": "https://www.bestinbarter.com"
+      },
+      {
+        "name": "Nucleus Information Service Inc",
+        "position": "Technical Support",
+        "startDate": "2002-01-31",
+        "endDate": "2004-12-31",
+        "highlights": [],
+        "url": "https://www.nucleus.com"
+      }
+    ],
+    "volunteer": [
+      {
+        "organization": "Quest for a Better Web Industry #BetterWeb",
+        "position": "Founder",
+        "startDate": "2019-07-01",
+        "summary": "",
+        "highlights": [
+          "Identified Problems with Current Web Industry Practices in Calgary, and Globally."
+        ],
+        "url": "https://www.BetterWeb.quest/"
+      },
+      {
+        "organization": "100% RAW Powerlifting Federation Canada",
+        "position": "Weight Loading/Deloading, Platform Spotter, Motivator, Clown 🤡",
+        "startDate": "2018-04-01",
+        "endDate": "2018-04-01",
+        "summary": "",
+        "highlights": [
+          "Loading/Unloading Weights",
+          "Yelling appropriately at Lifters as they approach the Platform for their attempt"
+        ],
+        "url": "https://www.rawplcanada.com/"
+      },
+      {
+        "organization": "JDRF Canada",
+        "position": "Ambassador, Walk to Cure Diabetes, Community Outreach",
+        "startDate": "2004-07-31",
+        "summary": "",
+        "highlights": [
+          "2001: Family Participation at JDRF Walk for the Cure",
+          "2004: Start Helping Those Who Help Me, the JDRF",
+          "2011: Son Diagnosed @ 3 Years Old - Both Active JDRF Ambassadors, Public Speakers"
+        ],
+        "url": "https://www.jdrf.ca/"
+      }
+    ],
+    "education": [
+
+      {
+        "institution": "LinkedIn",
+        "area": "the World",
+        "studyType": "Top Percentiles Skill Assessments",
+        "location": "Palo Alto, CA",
+        "specialization": "🥇🥈🥉 LinkedIn Skill Assessments - Ranked Top Globally in a Dozen Assessments",
+        "startDate": "2011-06-01",
+        "endDate": "2014-01-01",
+        "gpa": "GPA 4.0",
+        "courses": [
+          "DB1101 - Basic SQL",
+          "CS2011 - Java Introduction"
+        ]
+      },
+      {
+        "institution": "Dale Carnegie",
+        "studyType": "Course",
+        "area": "Personal Growth, Business Skills, Public Speaking",
+        "location": "Palo Alto, CA",
+        "specialization": "🥇🥈🥉 LinkedIn Skill Assessments - Ranked Top Globally in a Dozen Assessments",
+        "startDate": "2011-06-01",
+        "endDate": "2014-01-01",
+        "gpa": "GPA 4.0",
+        "courses": [
+          "Personal Potential",
+          "Relationships",
+          "Sales",
+          "Tricks and Tools for Living Successfully"
+        ]
+      }
+
+
+    ],
+    "awards": [
+      {
+        "date": "2004-05-01",
+        "awarder": "Skills Canada, Alberta",
+        "title": "🥈 Provincial Skills Competition (2nd)",
+        "summary": "Web Design & Development"
+      },
+      {
+        "date": "2007-03-31",
+        "awarder": "Adobe",
+        "title": "🖼 Adobe Certified ColdFusion MX Developer (Advanced)",
+        "summary": "\"Advanced\" Certification Surprise Extra for Exceeding a Certain Score"
+      },
+
+
+      {
+        "title": "🥇 Peak Power Open (1st)",
+        "date": "2015-10-24",
+        "awarder": "RAW-CAN",
+        "summary": "Squat 175 | Bench 110 | Deadlift 195 | Total 480 Kg"
+      },
+      {
+        "title": "🥉 Prairie Power Open (3rd)",
+        "date": "2016-01-09",
+        "awarder": "RAW-CAN",
+        "summary": "Squat 192.5 | Bench 120 | Deadlift 230 | Total 542.5 Kg"
+      },
+      {
+        "title": "🥈 Prairie Power Open (2nd)",
+        "date": "2017-03-18",
+        "awarder": "RAW-CAN",
+        "summary": "Squat 205 | Bench 120 | Deadlift 232.5 | Total 557.5 Kg"
+      },
+      {
+        "title": "🥇 Alberta Provincials (1st)",
+        "date": "2018-05-05",
+        "awarder": "RAW-CAN",
+        "summary": "Squat 220 | Bench 135 | Deadlift 240 | Total 595 Kg"
+      },
+      {
+        "title": "🥇 Hub Power Open (1st)",
+        "date": "2019-04-06",
+        "awarder": "RAW-CAN",
+        "summary": "Squat 212.5 | Bench 135 | Deadlift 232.5 | Total 580 Kg"
+      },
+      {
+        "title": "🥈 World Championships (2nd)",
+        "date": "2019-10-03",
+        "awarder": "RAW",
+        "summary": "Squat 212.5 | Bench 127.5 | Deadlift 230 | Total 570 Kg"
+      }
+
+
+
+
+      ,
+      {
+        "title": "🥇🥈🥉 LinkedIn Skill Assesments - Ranked Top Globally in a Dozen Assessments",
+        "date": "2019-10-03",
+        "awarder": "RAW",
+        "summary": "Squat 212.5 | Bench 127.5 | Deadlift 230 | Total 570 Kg"
+      }
+
+
+
+    ],
+
+
+    "certificates": [
+      {
+        "name": "🖼 Adobe Certified ColdFusion MX Developer",
+        "issuer": "Adobe",
+        "startDate": "2007-03-31"
+      }
+    ],
+    "publications": [
+      {
+        "name": "Transactionator (TRXN8R)",
+        "publisher": "GitHub",
+        "releaseDate": "2022-06-02",
+        "url": "https://github.com/trxn8r",
+        "summary": "Greg's First Open Source Project for the Tiller 2022 Builder Challenge - 'Performance Art' - The Trippy T-Rex Bulk CSV Importer/Transformer/Deduplicator; for the TillerHQ.com 2022 MS Excel Challenge; Better than my resume for Tiller Sr. Engineering Job 😱"
+      },
+      {
+        "name": "Savvy-Student-Stats / powerbi-moodle-data-source",
+        "publisher": "GitHub",
+        "releaseDate": "2021-02-08",
+        "url": "https://github.com/Savvy-Student-Stats/powerbi-moodle-data-source",
+        "summary": "Using the Moodle web service, we extract Course and Grade info to feed into Power BI for pretty reports and AI insights! #ProofOfConcept #WIP "
+      }
+    ],
+
+
+
+
+    "references": [
+      {
+        "reference": "...really knows his 💩...",
+        "name": "Business Analyst, Multi-Billion Dollar Corporation, 2021"
+      },
+      {
+        "reference": "Does the work of a dozen people! 👷‍♂️",
+        "name": "IT Manager, Corporate Client, 2021"
+      },
+      {
+        "reference": "Success requires aggressive pursuit, bold action, passion, fire, and most of all, perserverence. You must know your Identity... 🎤",
+        "name": "Billy Alsbrooks, Song: 'Blessed', 2020 (quoted, not a reference)."
+      },
+      {
+        "reference": "📢 \"KAIZEN means improvement. Moreover, it means continuing improvement in personal life, home life, social life, and working life.\"",
+        "name": "QUOTE from Masaaki Imai, Founder of Kaizen Institute on www.kaizen.com; (quoted, not a reference).",
+        "url": "https://www.kaizen.com/what-is-kaizen"
+      }
+    ],
+
+
+
+
+
+
+
+
+    "projects": [
+      {
+        "name": "🦋 RBC Jobs Scraper",
+        "description": "Randomly created to help me determine what Job Application Deadlines were. Turned into a beautiful butterfly. Full Creation Video available for free on YouTube @GregWorks. Part of a manic BI Dashboard creation phase.",
+        "startDate": "2019-01-01",
+        "endDate": "2021-01-01",
+        "url": "https://github.com/GregSweats/rbc-jobs-scraper",
+        "highlights": [
+          "Web Scraping",
+          "Power BI",
+          "Security Research"
+        ],
+        "keywords": [
+          "Web Scraping",
+          "Power BI",
+          "Power Query M",
+          "Power Platform",
+          "Datasets",
+          "API",
+          "REST",
+          "Workday",
+          "Applicant Tracking System (ATS)"
+        ]
+      },
+      {
+        "name": "🍤 DevOps Contract (Oct 2021 - Mar 2022)",
+        "description": "Architecture & Contracting to Migrate 20+ Websites In-House",
+        "startDate": "2019-01-01",
+        "endDate": "2021-01-01",
+        "highlights": [
+          "NDA - Hypotheticals Only"
+        ],
+        "keywords": [
+          "NDA",
+          "DevOps",
+          "RunCloud.io",
+
+
+          "Obsidian w/ Publish & Sync",
+          "Obsidian",
+          "Obsidian Publish",
+          "Obsidian Sync"
+        ],
+        "roles": [
+          "Team Lead",
+          "Contractor"
+        ],
+        "entity": "Entity",
+        "type": "application"
+      },
+      {
+        "name": "🤖 Propane Cylinder Tracker / Deliver Forecaster for Canada-wide Retailers",
+        "description": "Have you seen the quick-swap style Propane Tanks outside Gas Stations and other large retailers? Most come from the same company. I designed and developed a Web App to **Forecast Delivery Needs** for each location.",
+        "highlights": [
+          "Excel to Web App",
+          "Multiple Data Sources",
+          "Multiple Import/Export Formats"
+        ],
+        "keywords": [
+          "Laravel",
+          "AdminLTE",
+          "Mobile",
+          "Responsive Design",
+
+
+          "Microsoft Excel",
+          "Google Sheets",
+          "SFTP",
+          "CSV",
+          "National",
+
+          "Mailgun"
+        ],
+        "startDate": "2019-01-01",
+        "endDate": "2021-01-01",
+        "roles": [
+          "Team Lead",
+          "Project Manager",
+          "Account Manager",
+          "Architect",
+          "Lead Developer"
+        ],
+        "entity": "Entity",
+        "type": "application"
+      },
+      {
+        "name": "📨 Peters & Co",
+        "description": "",
+        "highlights": [
+          "Investment Research Updates Emailed to Clients Every Night using Custom Tools Created a Decade Ago!",
+          "User Accounts synced with custom .NET web service developed in co-ordination with Peters & Co.",
+          "Advanced Document Search",
+          "Advanced Document Search: Syncs with FileNexus web services to utilize Peters & Co’s existing document library.",
+          "Advanced Document Search: Utilizes FileNexus advanced search services when searching for text within documents. For speed, mirrors the remote FileNexus document indexes to a local MySQL database which is queried when not using a full text search.",
+          "Conference Site Manager",
+          "I was the main account manager for Peters & Co. Role involved client relations as well as new project  proposals and bidding."
+        ],
+        "keywords": [
+          "ColdFusion",
+          "FileNexus by Loris",
+          "Advanced Networking",
+          "Advanced Troubleshooting",
+          "Hosting",
+          "Website Monitoring",
+          "Penetration Testing"
+        ],
+        "startDate": "2006-01-01",
+        "url": "https://www.petersco.com/",
+        "roles": [
+          "Team Lead",
+          "Account Manager",
+          "Pre-sales",
+          "Technical Sales",
+          "Post-sales",
+          "On-call Support",
+          "Monitoring"
+        ]
+      }
+    ],
+
+
+
+
+
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "language": "Markdown",
+        "fluency": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "language": "ColdFusion",
+        "fluency": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "language": "PHP",
+        "fluency": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "language": "HTML, CSS, etc.",
+        "fluency": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "language": "HTTP(S), APIs",
+        "fluency": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "language": "Power Query / M",
+        "fluency": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "language": "(My|MS) SQL",
+        "fluency": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "language": "NoSQL",
+        "fluency": "⭐⭐⭐⭐"
+      },
+      {
+        "language": "JavaScript",
+        "fluency": "⭐⭐⭐⭐"
+      },
+      {
+        "language": "GraphQL",
+        "fluency": "⭐⭐⭐"
+      },
+      {
+        "language": "TypeScript",
+        "fluency": "⭐⭐⭐⭐"
+      },
+      {
+        "language": "Perl (hobby use)",
+        "fluency": "⭐⭐⭐"
+      },
+      {
+      "language": "R (new)",
+        "fluency": "⭐"
+      },
+      {
+        "language": "Rust (upcoming)",
+        "fluency": "⭐"
+      }
+
+    ],
+
+
+    "skills": [
+      {
+        "name": "🙋‍♀️ Why Greg?",
+        "level": "🧙‍♂️ Greybeard",
+        "keywords": [
+          "🐧 23+ Years Linux, WebDev",
+          "💼 18+ Web Agency Years",
+          "🎹 ~130 WPM, Great Docs",
+          "🙌 Agile Lifestyle, Kaizen",
+          "🏋️‍♀️ Natural Leader",
+          "🤓 Pragmatic Power User",
+          "👷‍♂️ Processes & Workflows",
+          "🤗 Resilent Teammate"
+        ]
+      },
+      {
+        "name": "💪 Powerlifting Competition Bests",
+        "level": "🧒 Intermediate",
+        "keywords": [
+          "⚖ ~220 lbs Body Weight",
+          "Squat: 485 lbs",
+          "Bench: 297.6 lbs",
+          "Deadlift: 529.1 lbs",
+          "Total: 1,311.7 lbs",
+          "Total Dots: 366.39"
+        ],
+        "url": "https://www.openpowerlifting.org/u/gregstevens"
+      },
+      {
+        "name": "✅ Testing & QA Automation",
+        "level": "🐱‍💻 Master",
+        "keywords": [
+          "🥇 Insomnia REST/HTTP Tool",
+          "E2E Testing",
+          "TestCafe",
+          "Cypress",
+          "Puppeteer",
+          "Playwright"
+        ]
+      },
+      {
+        "name": "💯 Top 5% Globally on 7️⃣ LinkedIn Assesments",
+        "level": "🧙‍♂️ Greybeard",
+        "keywords": [
+          "HTML / 1.1 M",
+          "IT Operations / 944.9 K",
+          "Microsoft Outlook / 1.3 M",
+          "MySQL / 674.6 K",
+          "PHP / 2.9 M",
+          "WordPress / 1.0 M",
+          "XML / 217.9 K"
+        ]
+      },
+      {
+        "name": "💯 Top 15% Globally on 2️⃣ LinkedIn Assesments",
+        "level": "🤯 Expert",
+        "keywords": [
+          "🐧 Linux / 4.2M",
+          "📊 Microsoft Power BI / 600.1k"
+        ]
+      },
+      {
+        "name": "💯 Top 30% Globally on 4️⃣ LinkedIn Assesments",
+        "level": "🤵 Pro",
+        "keywords": [
+          "CSS / 1.6M",
+          "Cybersecurity / 824.4k",
+          "Git / 971.5k",
+          "REST APIs  / 485.3k"
+        ]
+      },
+      {
+        "name": "🐧 Linux",
+        "level": "🧙‍♂️ Greybeard",
+        "keywords": [
+          "🥇 Linux Sys Admin",
+          "Ubuntu",
+          "Manjaro KDE Desktop",
+          "Kali Linux",
+          "Red Hat Enterprise Linux (RHEL)",
+          "CentOS 5-8",
+          "Ubuntu Gnome Desktop"
+        ]
+      },
+      {
+        "name": "🔐 Security",
+        "level": "🐱‍💻 Master",
+        "keywords": [
+          "Kali Linux",
+          "Pen Testing",
+          "OWASP ZAP!"
+        ]
+      },
+      {
+        "name": "🎓 Knowledge Mgmt & Documentation",
+        "level": "💼 Pro",
+        "keywords": [
+          "🥇 Markdown",
+          "Obsidian",
+          "Notion",
+          "Evernote",
+          "TickTick",
+          "TickTick"
+        ]
+      },
+      {
+        "name": "🎓 Collaboration Tools",
+        "level": "💼 Pro",
+        "keywords": [
+          "🥇 Jira",
+          "Jira Service Management",
+          "Confluence",
+          "Atlassian (Platform)",
+          "Asana",
+          "Wrike"
+        ]
+      },
+
+      {
+        "name": "💻 I.T.",
+        "level": "🧙‍♂️ Greybeard",
+        "keywords": [
+          "🥇 Office 365, Azure",
+          "Consulting",
+          "Contracting",
+          "Directing",
+          "Mentoring",
+          "Processes",
+          "Linux",
+          "Windows",
+          "macOS"
+        ]
+      },
+      {
+        "name": "⛅ Cloud MSP",
+        "level": "🧙‍♂️ Greybeard",
+        "keywords": [
+          "🥇 DigitalOcean",
+          "Linode",
+          "Azure",
+          "AWS",
+          "Vultr",
+          "WHC",
+          "Google Compute",
+          "Google Workspace"
+        ]
+      },
+      {
+        "name": "🔀 Agile Methodologies",
+        "level": "💼 Pro",
+        "keywords": [
+          "Agile Budgeting Techniques",
+          "Agile Estimation Techniques & Scales (T-Shirt, Primes, Fibonicci, etc.)",
+          "Agile Methodologies",
+          "Time Tracking, Estimation, Budgeting",
+          "Selling Ideas and $$$ to Stakeholders",
+          "Kanban",
+          "Lean",
+          "Scrum",
+          "Hybrid Agile Waterfall",
+          "SAFe (Scaled Agile Framework)",
+          "User Stories",
+          "Estimation, Tracking, Budgeting"
+        ]
+      },
+      {
+        "name": "🔁 DevOps",
+        "level": "💼 Pro",
+        "keywords": [
+          "DevOps",
+          "Git",
+          "GitHub",
+          "Bitbucket",
+          "GitLab",
+          "DevOps Architecture",
+          "Site Reliability Engineering (SRE)",
+          "Kaizen"
+        ]
+      },
+
+      {
+        "name": "🤖 Automation",
+        "level": "💼 Pro",
+        "keywords": [
+          "GH Actions",
+          "MS Power Automate",
+          "Bitbucket Pipelines",
+          "Ansible",
+          "Terraform",
+          "Shell Scripts"
+        ]
+      },
+
+      {
+        "name": "📊 Business Intelligence",
+        "level": "",
+        "keywords": [
+          "Microsoft Powerapps",
+          "Microsoft Power Automate",
+          "Microsoft Power BI",
+          "Cube - Headless BI",
+          "Google Data",
+          "Google Analytics, Tag Manager, etc."
+        ]
+      },
+      {
+        "name": "🌐 Modern Content Management Systems",
+        "level": "🤯 Expert",
+        "keywords": [
+          "Headless CMS",
+          "Jamstack",
+          "Static Site Generators (SSG)",
+          "Hugo, 11ty, Jekyll, Mkdocs, etc.",
+          "Resumed SSG",
+          "Statamic CMS",
+          "TinaCMS"
+        ]
+      },
+      {
+        "name": "📝 Legacy Content Management Systems (CMS)",
+        "level": "🤯 Expert",
+        "keywords": [
+          "Conductor CMS - Proprietary ColdFusion CMS",
+          "Concrete5",
+          "WordPress",
+          "Joomla",
+          "Drupal"
+        ]
+      },
+
+      {
+        "name": "👷‍♂️ Full-stack Web Dev (💄 Front-end)",
+        "level": "🧙‍♂️ Greybeard",
+        "keywords": [
+          "Full-Stack Development",
+          "Web Project Management",
+          "Websites",
+          "HTML5 / xHTML",
+          "CSS",
+          "Node.js",
+          "Laravel",
+          "ColdFusion, Lucee",
+          "Web Apps",
+          "Websites",
+          "JavaScript",
+          "TypeScript",
+          "jQuery"
+        ]
+      },
+
+
+      {
+        "name": "👷‍♀️ Full-stack Web Dev (🥼 Back-end)",
+        "level": "🧙‍♂️ Greybeard",
+        "keywords": [
+          "Full-Stack Development",
+          "Web Project Management",
+          "Web Applications",
+
+          "APIs",
+          "REST",
+          "Web Services",
+          "XML",
+          "PHP",
+
+          "Continuous Improvement",
+          "Object-Oriented Programming (OOP)",
+          "SQL",
+          "JSON"
+
+        ]
+      },
+      {
+        "name": "🖥 Web Hosting Services",
+        "level": "🧙‍♂️ Greybeard",
+        "keywords": [
+          "Email Hosting",
+          "Web Hosting",
+          "Apache",
+          "Nginx",
+          "LiteSpeed / OLS"
+        ]
+      },
+      {
+        "name": "✅ Web Project Management",
+        "level": "💼 Pro",
+        "keywords": [
+          "Agile",
+          "DevOps",
+          "Agile / Traditional Hybrid",
+          "SAFe",
+          "Scrum",
+          "Estimation",
+          "Project Budget",
+          "Time Tracking"
+        ]
+      },
+      {
+        "name": "📜 The Big List of Keywords",
+        "level": "_(Sorry, here for Applicant Tracking Systems)_",
+        "keywords": [
+          "Red Hat Enterprise Linux (RHEL)",
+          "People Skills",
+          "Conflict Resolution",
+          "MySQL",
+          "MongoDB",
+          "(L|W)AMP",
+          "LAMP",
+          "WAMP",
+          "MEAN",
+          "Decentralized CMS",
+          "Decentrailzed DB",
+          "Headless CMS"
+        ]
+      }
+    ],
+
+
+    "interests": [
+      {
+        "name": "Wildlife",
+        "keywords": [
+          "Bearded Dragons",
+          "My Teenage Son",
+          "Sun"
+        ]
+      },
+      {
+        "name": "Automotive",
+        "keywords": [
+          "Stereos, SPLs",
+          "Oil Changes",
+          "Fuel Tanks",
+          "Fuel Pumps",
+          "Oil Pans",
+          "Radiators",
+          "Body Repair & Replacements"
+        ]
+      },
+      {
+        "name": "Home Building & Renos",
+        "keywords": [
+          "Garage Building",
+          "Permits",
+          "Electrical",
+          "HVAC",
+          "Networking",
+          "Fibre",
+          "Landscaping",
+          "Drywalling",
+          "Finishing",
+          "Painting, Cupboards, Furniture",
+          "😱 it doesn't stop..let it stop..please...help me!"
+        ]
+      }
+    ]
+  }
